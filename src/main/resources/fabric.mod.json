@@ -1,34 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tconstruct",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Tinkers' Construct",
+  "description": "Tinkers' Construct Fabric Port",
   "authors": [
-    "Me!"
+    "Skullman Games"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/members/skullmanprivate",
+    "sources": "https://github.com/Skullman-G/Tinkers-Construct-Fabric-Port"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.tconstruct.TConstruct"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },
